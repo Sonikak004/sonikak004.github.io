@@ -1,76 +1,63 @@
+
 <a name="readme-top"></a>
-
-
 <div align="center">
 
-  <img src="./images\images.png" alt="logo" width="140"  height="auto" />
- 
-
+  <img src="images\images.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Sonika's Portfolio</b></h3>
 
 </div>
-
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
+# 📖 [Protofilio] <a name="about-project"></a>
+**[Protofilio]** everything you want to know about me!
 
-# 📖 PORTFOLIO Mobile version <a name="about-project"></a>
-
-
-**[Portfolio]** is my first project built with HTML and CSS 
 
 ## 🛠 Built With <a name="built-with"></a>
+### Key Features <a name="key-features"></a>
+- **used linters**
+- **mobile version**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Tech Stack <a name="tech-stack"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
+you can see my profile through this link:
+https://github.com/Sonikak004/my-portfolio/tree/home-page
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<details>
-  <summary>HTML</summary>
-
-</details>
-
-<details>
-  <summary>CSS</summary>
-</details>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-
-you could use this as an project to apply the basics of CSS and HTML
-
-
-### Setup
-
-Clone this repository to your desired folder:
-
-git clone https://github.com/Sonikak004/portfolio-setup
-
-To your local directory.
+you can know me from here...
 
 
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **sonika kumar**
 
-👤 **Author**
+- GitHub: [sonikak004](https://github.com/sonikak004)
+- Twitter: [@sonikakumar](https://twitter.com/sonikakumar
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sonikak004/)
 
-- GitHub: [@sonikak004](https://github.com/Sonikak004)
-- Twitter: [@sonikak004](https://twitter.com/sonikak004)
-- LinkedIn: [sonika kumar](https://www.linkedin.com/in/sonika-kumar-311826206/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Improve page elements**
+- [ ] **will improve styles and add more pages**
+- [ ] **will add Java script**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,19 +70,22 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ⭐️ Show your support <a name="support"></a>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank my coding partners, mentors and microverse for giving me this oppurtunity.
+If you like this project give me star!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for giving me this oppurtunity
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
