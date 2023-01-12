@@ -48,8 +48,7 @@ html {
 /* body for main page */
 
 .main-page {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   background: #1c1a19;
   position: absolute;
   width: 375px;
@@ -312,13 +311,23 @@ button {
 
 /* professional art cards */
 
+.professional-art {
+  display: grid;
+  grid-column: 1;
+  justify-content: start;
+  align-content: space-evenly;
+}
+
 .professional-art-text {
   width: 327px;
   margin-top: 20px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
   padding-left: 14px;
   padding-top: 77px;
+}
+
+.professional-text{
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
@@ -327,7 +336,7 @@ button {
 
 .pro-para-text {
   width: 295px;
-  height: 87px;
+  height: 101px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -396,7 +405,7 @@ button {
   gap: 10px;
   width: 327px;
   margin-left: -14px;
-  margin-top: 70px;
+  margin-top: 66px;
   height: 48px;
   border: none;
   background: #ff6b00;
@@ -536,10 +545,10 @@ button {
   left: -2px;
   width: 377px;
   padding-right: -171px;
-  height: 1960px;
+  height: 2038px;
   top: 4406px;
   background: #1c1a19;
-  background-image: url(./images/Group.png);
+  background-image: url(./images/group.png);
   background-repeat: no-repeat;
   background-position-x: 217px;
   background-position-y: 392px;
@@ -574,7 +583,12 @@ button {
 }
 
 .button3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
   display: flex;
+  color: #fff;
   flex-direction: row;
   align-items: center;
   padding: 12px;
@@ -587,23 +601,11 @@ button {
   background: #ff6b00;
 }
 
-.button-text3 {
-  width: 137px;
-  height: 24px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  padding: 3px;
-  line-height: 24px;
-  text-decoration: none;
-  color: #fff;
-}
-
 .button3:hover {
+  color: #ff6b00;
   background-color: #fff;
   border: 2px solid #ff6b00;
-  padding: 5px;
+  padding: 12px;
 }
 
 .button3:active {
@@ -651,6 +653,7 @@ button {
 .about-me-section {
   position: relative;
   top: 330px;
+  left: -15px;
 }
 
 .about-heading-skills {
@@ -669,26 +672,88 @@ button {
 
 /* skills text */
 
-.about-head-text {
-  height: 36px;
+.about-head-text-1 {
+  height: 56px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 43px;
-  margin-left: 11px;
+  line-height: 129px;
+  margin-left: -22px;
   display: flex;
-  justify-content: center;
-  text-align: center;
   color: #fff;
   gap: 12px;
+  justify-content: space-around;
 }
+
+.about-head-text-2 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.about-head-text-3 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+
+}
+
+.about-head-text-4 {
+  height: 97px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.about-head-text-5 {
+  height: 56px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 129px;
+  margin-left: -22px;
+  display: flex;
+  color: #fff;
+  gap: 12px;
+  align-content: center;
+  align-items: center ;
+  justify-content: space-around;
+}
+
 
 /* skills logo */
 
 .diamond-img {
   position: absolute;
-  left: 75px;
+  left: 91px;
 }
 
 .square-img {
