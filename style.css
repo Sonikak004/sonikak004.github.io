@@ -325,7 +325,7 @@ button {
   padding-top: 77px;
 }
 
-.professional-text{
+.professional-text {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -583,7 +583,7 @@ button {
 }
 
 .button3 {
-  font-family: 'Inter';
+  font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -714,7 +714,6 @@ button {
   gap: 12px;
   align-content: center;
   justify-content: space-around;
-
 }
 
 .about-head-text-4 {
@@ -744,10 +743,9 @@ button {
   color: #fff;
   gap: 12px;
   align-content: center;
-  align-items: center ;
+  align-items: center;
   justify-content: space-around;
 }
-
 
 /* skills logo */
 
