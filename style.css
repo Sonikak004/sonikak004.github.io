@@ -811,6 +811,7 @@ input {
 
 .text-area {
   color: #3c3a39;
+  background-color:  #fbf8f7;;
   width: 314px;
   padding-left: 21px;
   margin-top: 77px;
@@ -819,7 +820,7 @@ input {
   position: absolute;
   left: 19px;
   right: 12px;
-  top: 2576px;
+  top: 2570px;
   bottom: -794px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -852,8 +853,7 @@ input {
 .button4:hover {
   background-color: #fff;
   border: 2px solid #ff6b00;
-
-  /* padding: 5px; */
+  padding: 23px;
   color: #ff6b00;
   font-weight: 600;
 }
