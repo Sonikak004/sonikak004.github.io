@@ -826,11 +826,10 @@ input {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-
 }
 
 .text-area::placeholder {
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .button4 {
