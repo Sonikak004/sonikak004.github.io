@@ -819,13 +819,18 @@ input {
   position: absolute;
   left: 19px;
   right: 12px;
-  top: 2579px;
+  top: 2576px;
   bottom: -794px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
+
+}
+
+.text-area::placeholder {
+  color: #3C3A39;
 }
 
 .button4 {
@@ -833,11 +838,10 @@ input {
   flex-direction: row;
   font-family: "Inter", sans-serif;
   align-items: center;
-  padding-left: 25px;
   gap: 10px;
   color: white;
   font-weight: 600;
-  padding-top: 17px;
+  padding: 25px;
   width: 161px;
   margin-left: 77px;
   height: 48px;
