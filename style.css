@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap");
 
 html {
   box-sizing: border-box;
@@ -30,7 +30,7 @@ html {
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding-left: 21px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #navigation-bar {
@@ -60,7 +60,7 @@ html {
 .main-text {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 60px;
@@ -74,7 +74,7 @@ html {
 
 .profession {
   width: 331px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -84,7 +84,7 @@ html {
 
 .main-description {
   width: 331px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -135,7 +135,7 @@ ul {
 }
 
 .second-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -157,7 +157,7 @@ ul {
 /* multi post stories section  */
 
 .recent-work-heading {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -171,7 +171,7 @@ ul {
   margin-top: -13px;
   width: 333px;
   height: 147px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -191,7 +191,7 @@ ul {
 }
 
 .item1 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
@@ -206,7 +206,7 @@ ul {
 }
 
 .item2 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
@@ -221,7 +221,7 @@ ul {
 }
 
 .item3 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
@@ -236,7 +236,7 @@ ul {
 }
 
 .item4 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 38px;
@@ -285,7 +285,7 @@ button {
 .button-text {
   width: 100px;
   height: 24px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-style: normal;
   padding: 2px;
   font-weight: 300;
@@ -326,7 +326,7 @@ button {
 }
 
 .professional-text {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -337,7 +337,7 @@ button {
 .pro-para-text {
   width: 295px;
   height: 101px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -348,7 +348,7 @@ button {
 /* skill buttons in professional section */
 
 .card1 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 38px;
@@ -364,7 +364,7 @@ button {
 }
 
 .card2 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 38px;
@@ -380,7 +380,7 @@ button {
 }
 
 .card3 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 38px;
@@ -414,7 +414,7 @@ button {
 .button-text2 {
   width: 290px;
   height: 24px;
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -557,7 +557,7 @@ button {
 .about-me-text {
   width: 327px;
   height: 79px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   padding-left: 25px;
   padding-top: 30px;
@@ -572,7 +572,7 @@ button {
 .about-me-para {
   width: 327px;
   height: 148px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   padding-top: 12px;
   padding-left: 24px;
@@ -583,7 +583,7 @@ button {
 }
 
 .button3 {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -658,7 +658,7 @@ button {
 
 .about-heading-skills {
   height: 33px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   justify-content: center;
   font-style: normal;
   font-weight: 600;
@@ -674,7 +674,7 @@ button {
 
 .about-head-text-1 {
   height: 56px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -688,7 +688,7 @@ button {
 
 .about-head-text-2 {
   height: 56px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -703,7 +703,7 @@ button {
 
 .about-head-text-3 {
   height: 56px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -718,7 +718,7 @@ button {
 
 .about-head-text-4 {
   height: 97px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -733,7 +733,7 @@ button {
 
 .about-head-text-5 {
   height: 56px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -775,7 +775,7 @@ button {
 .contact-me-para {
   width: 321px;
   height: 216px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   color: #172b4d;
@@ -789,15 +789,13 @@ button {
   text-align: center;
 }
 
-.no-outlin:focus {
-  outline: none;
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
 }
 
 input {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-color: #dbd8d7;
   color: #979493;
   width: 287px;
   position: relative;
@@ -805,7 +803,6 @@ input {
   top: 47px;
   padding: 26px;
   margin-bottom: 5px;
-  outline: none;
 }
 
 .name input:invalid {
@@ -814,21 +811,17 @@ input {
 
 .text-area {
   color: #3c3a39;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-color: #dbd8d7;
   width: 314px;
   padding-left: 21px;
-  margin-top: 77px;
-  margin-bottom: 77px;
+  margin-top: 25px;
+  margin-bottom: 38px;
   outline: none;
   position: absolute;
   left: 19px;
   right: 12px;
   top: 2579px;
   bottom: -794px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -838,7 +831,7 @@ input {
 .button4 {
   display: flex;
   flex-direction: row;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-items: center;
   padding-left: 25px;
   gap: 10px;
