@@ -945,6 +945,13 @@ footer {
     position: relative;
   }
 
+  .nav-icon:hover {
+    transform: translateY(-10px);
+    top: -49px;
+    width: 72px;
+    left: 153px;
+  }
+
   .nav1 {
     top: -32px;
     left: -70px;
@@ -980,6 +987,11 @@ footer {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
+
+  .heading-text:hover {
+    transform: scale(1.2);
+  }
+
 
   #navigation-bar {
     display: none;
@@ -1092,6 +1104,11 @@ footer {
     color: #091e42;
   }
 
+  .second-heading:hover {
+    transform: translatex(-20px);
+    color: #ff6b00;
+  }
+
   .page2-line {
     left: 391px;
     top: -127px;
@@ -1138,6 +1155,34 @@ footer {
     margin-top: 40px;
   }
 
+  .btn:hover {
+    animation: move 1.5s linear infinite;
+  }
+
+  @keyframes move {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotatez(-10deg);
+    }
+    20% {
+      transform: rotatez(20deg);
+    }
+    25% {
+      transform: rotatez(-20deg);
+    }
+    30% {
+      transform: rotatez(3deg);
+    }
+    35% {
+      transform: rotatez(-3deg);
+    }
+    40%, 100% {
+      transform: rotatez(0);
+    }
+  }
+
   .pro-text {
     display: none;
   }
@@ -1153,6 +1198,23 @@ footer {
     height: 345px;
     width: 345px;
     background-size: 84%;
+  }
+
+  #pro-images-1:hover {
+    animation: left-right 1s linear infinite;
+  }
+
+  @keyframes left-right {
+    0% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotatez(-15deg);
+    }
+
+    100% {
+      transform: rotateZ(-15deg);
+    }
   }
 
   .button2 {
