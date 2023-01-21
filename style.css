@@ -1060,7 +1060,7 @@ footer {
   #background-main {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 449px;
+    background-size: 450px;
     background-position-x: 559px;
     background-position-y: -54px;
   }
@@ -1259,7 +1259,7 @@ footer {
   .about-me {
     width: 100%;
     height: 1195px;
-    top: 359%;
+    top: 358%;
     background-image: url(./images/about-me-background.png);
     background-size: 46%;
     background-position-x: 544px;
