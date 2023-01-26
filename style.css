@@ -991,6 +991,11 @@ footer {
     top: 72px;
   }
 
+  .main-page-text{
+    width: 500px;
+    margin-left: 60px;
+  }
+
   .main-text {
     padding-left: 90px;
     padding-top: 30px;
@@ -1015,6 +1020,12 @@ footer {
     width: 443px;
     height: 123px;
     line-height: 32px;
+  }
+
+  .social-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: -350px;
   }
 
   .social-media {
@@ -1058,8 +1069,8 @@ footer {
   #background-main {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 450px;
-    background-position-x: 559px;
+    background-size: 500px;
+    background-position-x: right;
     background-position-y: -54px;
   }
 
