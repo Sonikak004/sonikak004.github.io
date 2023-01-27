@@ -976,7 +976,7 @@ footer {
   }
 
   .heading-text {
-    padding-left: 90px;
+    margin-left: 110px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
@@ -993,7 +993,7 @@ footer {
 
   .main-page-text{
     width: 500px;
-    margin-left: 60px;
+    margin-left: 42px;
   }
 
   .main-text {
@@ -1025,7 +1025,7 @@ footer {
   .social-div {
     display: flex;
     flex-direction: column;
-    margin-left: -350px;
+    margin-left: -299px;
   }
 
   .social-media {
@@ -1071,7 +1071,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 500px;
     background-position-x: right;
-    background-position-y: -54px;
+    background-position-y: -35px;
   }
 
   #desktop-nav-bar {
@@ -1087,16 +1087,21 @@ footer {
 
   .desktop-items {
     display: flex;
-    margin-top: 143px;
+    margin-top: 143px; 
+    margin-left: 105px;
     position: relative;
     left: 100px;
     top: -40px;
   }
 
+  .second-page {
+    width: 100%;
+  }*******
+
   .second-heading {
-    margin-top: 96px;
+    margin-top: 181px;
     position: relative;
-    left: 59px;
+    left: 118px;
     top: -70px;
     color: #091e42;
   }
