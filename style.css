@@ -772,6 +772,11 @@ button {
   justify-content: center;
 }
 
+.form-items-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-me-para {
   width: 321px;
   height: 216px;
