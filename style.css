@@ -1491,6 +1491,7 @@ footer {
     position: relative;
     top: -265px;
     left: 333px;
+    padding-left: 30px;
   }
 
   .text-area {
@@ -1501,7 +1502,7 @@ footer {
     position: relative;
     top: -160px;
     width: 512px;
-    left: 410px;
+    left: 431px;
     display: inline;
     color: #3c3a39;
     background-color: #fbf8f7;
