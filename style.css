@@ -1671,4 +1671,20 @@ footer {
     position: relative;
     left: 320px;
   }
+
+  .second-heading:hover {
+    transform: translatex(-20px);
+    color: #ff6b00;
+  }
+
+  .heading-text:hover {
+    transform: scale(1.2);
+  }
+  
+  .nav-icon:hover {
+    transform: translateY(-10px);
+    top: -49px;
+    width: 72px;
+    left: 153px;
+  }
 }
