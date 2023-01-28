@@ -1387,9 +1387,10 @@ footer {
   .button3:hover {
     animation: move 1.5s linear infinite;
   }
-  @keyframes move {
 
-    0%, 7% {
+  @keyframes move {
+    0%,
+    7% {
       transform: rotateZ(0);
     }
 
@@ -1413,7 +1414,8 @@ footer {
       transform: rotateZ(-3deg);
     }
 
-    40%, 100% {
+    40%, 
+    100% {
       transform: rotateZ(0);
     }
   }
