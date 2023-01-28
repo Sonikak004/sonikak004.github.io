@@ -1414,7 +1414,7 @@ footer {
       transform: rotateZ(-3deg);
     }
 
-    40%, 
+    40%,
     100% {
       transform: rotateZ(0);
     }
