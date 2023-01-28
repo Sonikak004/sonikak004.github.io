@@ -20,7 +20,7 @@ html {
 .heading {
   position: relative;
   align-items: center;
-  margin-left: 20px;
+  margin-left: 2px;
   width: 375px;
   height: 92px;
   display: flex;
@@ -40,6 +40,10 @@ html {
 
 #desktop-nav-bar {
   display: none;
+}
+
+.topnav-bar {
+  width: 100%;
 }
 
 #navigation-bar {
@@ -1000,7 +1004,7 @@ footer {
   }
 
   .heading-text {
-    margin-left: 135px;
+    margin-left: 80px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
@@ -1119,65 +1123,72 @@ footer {
   }
 
   .second-page {
-    width: 1px;
-    margin-left: 38px;
+    width: 80%;
+    height: 1px;
+    margin-left: -143px;
   }
 
   .second-page-div {
-    margin-left: 45px;
+    margin-left: 102px;
+    width: 100%;
+    height: 50px;
   }
 
   .second-heading {
-    width: 315px;
+    width: 100%;
     margin-top: 181px;
     position: relative;
-    margin-left: 160px;
+    margin-left: 175px;
     top: -70px;
+    display: flex;
     color: #091e42;
   }
 
   .page2-line {
-    margin-left: 501px;
     top: -128px;
-    width: 648px;
+    left: 358px;
+    width: 68%;
     position: relative;
   }
 
   .background2 {
-    width: 507px;
-    height: 465px;
+    width: 491px;
+    height: 499px;
   }
 
   .second-background {
     position: relative;
-    left: 196px;
+    left: 313px;
+    width: 491px;
     top: -93px;
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
   }
 
   .page2-para {
     position: relative;
-    margin-left: 733px;
-    top: -586px;
-    width: 471px;
+    margin-left: 835px;
+    top: -621px;
+    display: flex;
+    width: 43%;
+    flex-direction: column;
   }
 
   .recent-work-heading {
     line-height: 52px;
-    width: 448px;
+    width: 100%;
   }
 
   .recent-work-para {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    width: 420px;
+    width: 100%;
     height: 140px;
   }
 
   .recent-works-div {
-    width: 428px;
+    width: 100%;
   }
 
   .recent-div {
@@ -1185,13 +1196,13 @@ footer {
   }
 
   .languages {
-    padding-top: 32px;
-    width: 428px;
-    margin-left: -60px;
+    padding-top: 6px;
+    width: 353px;
+    margin-left: -19px;
   }
 
   button {
-    margin-top: 40px;
+    margin-top: 15px;
   }
 
   .pro-text {
@@ -1203,8 +1214,9 @@ footer {
   }
 
   #pro-images-1 {
-    top: -454px;
-    left: 211px;
+    top: -429px;
+    margin: auto;
+    left: 328px;
     background-image: url(./images/Img\ Placeholder.png);
     background-size: 91%;
     width: 410px;
@@ -1233,8 +1245,8 @@ footer {
   }
 
   #pro-images-2 {
-    top: -941px;
-    left: 567px;
+    top: -916px;
+    left: 687px;
     height: 345px;
     background-size: 85%;
     width: 371px;
@@ -1249,11 +1261,11 @@ footer {
   }
 
   #pro-images-3 {
-    top: -1373px;
-    left: 908px;
+    top: -1358px;
+    left: 1026px;
     height: 402px;
-    width: 369px;
-    background-size: 83%;
+    width: 316px;
+    background-size: 100%;
     background-image: url(./images/card3.png);
   }
 
@@ -1270,8 +1282,8 @@ footer {
   }
 
   #pro-images-4 {
-    top: -1473px;
-    left: 224px;
+    top: -1450px;
+    left: 345px;
     height: 345px;
     background-size: 94%;
     width: 338px;
@@ -1298,20 +1310,28 @@ footer {
   }
 
   #pro-images-5 {
-    top: -1910px;
-    left: 564px;
+    top: -1892px;
+    left: 689px;
     height: 363px;
     background-size: 82%;
     width: 388px;
     background-image: url(./images/page2card2.png);
   }
 
+  .pro-div {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-left: 337px;
+    height: 1px;
+  }
+  
   #pro-images-6 {
-    top: -2366px;
-    left: 906px;
+    top: -2352px;
+    left: 1028px;
     height: 423px;
-    width: 333px;
-    background-size: 94%;
+    width: 316px;
+    background-size: 100%;
     background-image: url(./images/card3.png);
   }
 
@@ -1352,7 +1372,7 @@ footer {
   }
 
   .line {
-    width: 1024px;
+    width: 640px;
     position: relative;
     top: 135px;
   }
@@ -1362,7 +1382,6 @@ footer {
     justify-content: center;
     position: relative;
     top: 205px;
-    left: -143px;
   }
 
   .square-img {
@@ -1464,8 +1483,8 @@ footer {
   }
 
   .contact-me {
-    display: block;
-    padding-left: 70px;
+    padding-left: 88px;
+    justify-content: flex-start;
   }
 
   .contact-me-para {
@@ -1564,9 +1583,9 @@ footer {
   }
 
   .footer-bottom {
-    width: 100%;
+    width: 96%;
     display: block;
-    margin-left: 105px;
+    margin-left: 2px;
     margin-top: -296px;
   }
 
