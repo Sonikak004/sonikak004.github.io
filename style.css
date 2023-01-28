@@ -1000,7 +1000,7 @@ footer {
   }
 
   .heading-text {
-    margin-left: 90px;
+    margin-left: 135px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
@@ -1011,13 +1011,13 @@ footer {
 
   .main-page {
     width: 100%;
-    left: 1px;
+    left: -1px;
     top: 72px;
   }
 
   .main-page-text {
     width: 500px;
-    margin-left: 23px;
+    margin-left: 70px;
   }
 
   .main-text {
@@ -1094,7 +1094,7 @@ footer {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
     background-size: 500px;
-    background-position-x: 716px;
+    background-position-x: right;
     background-position-y: -35px;
   }
 
@@ -1120,7 +1120,7 @@ footer {
 
   .second-page {
     width: 1px;
-    margin-left: -10px;
+    margin-left: 38px;
   }
 
   .second-page-div {
@@ -1329,7 +1329,7 @@ footer {
     width: 566px;
     height: 426px;
     margin-top: -26px;
-    margin-left: 31px;
+    margin-left: 73px;
   }
 
   .about-me-text {
@@ -1352,10 +1352,9 @@ footer {
   }
 
   .line {
-    width: 958px;
+    width: 1024px;
     position: relative;
     top: 135px;
-    left: -73px;
   }
 
   .about-me-section {
@@ -1363,7 +1362,7 @@ footer {
     justify-content: center;
     position: relative;
     top: 205px;
-    left: -188px;
+    left: -143px;
   }
 
   .square-img {
@@ -1567,7 +1566,7 @@ footer {
   .footer-bottom {
     width: 100%;
     display: block;
-    margin-left: 53px;
+    margin-left: 105px;
     margin-top: -296px;
   }
 
