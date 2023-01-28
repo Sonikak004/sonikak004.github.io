@@ -1388,26 +1388,33 @@ footer {
     animation: move 1.5s linear infinite;
   }
   @keyframes move {
+
     0%, 7% {
       transform: rotateZ(0);
     }
+
     15% {
-      transform: rotatez(-10deg);
+      transform: rotateZ(-10deg);
     }
+
     20% {
-      transform: rotatez(20deg);
+      transform: rotateZ(20deg);
     }
+
     25% {
-      transform: rotatez(-20deg);
+      transform: rotateZ(-20deg);
     }
+
     30% {
-      transform: rotatez(3deg);
+      transform: rotateZ(3deg);
     }
+
     35% {
-      transform: rotatez(-3deg);
+      transform: rotateZ(-3deg);
     }
+
     40%, 100% {
-      transform: rotatez(0);
+      transform: rotateZ(0);
     }
   }
 
@@ -1584,7 +1591,7 @@ footer {
     left: 336px;
     padding-left: 30px;
   }
-  
+
   .text-area {
     display: none;
   }
