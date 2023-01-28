@@ -1011,7 +1011,7 @@ footer {
 
   .main-page {
     width: 100%;
-    left: 0px;
+    left: 1px;
     top: 72px;
   }
 
@@ -1093,7 +1093,7 @@ footer {
   #background-main {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 500px;   
+    background-size: 500px;
     background-position-x: 716px;
     background-position-y: -35px;
   }
@@ -1111,7 +1111,7 @@ footer {
 
   .desktop-items {
     display: flex;
-    margin-top: 143px; 
+    margin-top: 143px;
     margin-left: 105px;
     position: relative;
     left: 100px;
@@ -1119,13 +1119,13 @@ footer {
   }
 
   .second-page {
-    width: 0px;
+    width: 1px;
     margin-left: -10px;
   }
 
   .second-page-div {
     margin-left: 45px;
- }
+  }
 
   .second-heading {
     width: 315px;
@@ -1142,7 +1142,6 @@ footer {
     width: 648px;
     position: relative;
   }
-
 
   .background2 {
     width: 507px;
@@ -1298,7 +1297,6 @@ footer {
     padding-top: 9px;
   }
 
-
   #pro-images-5 {
     top: -1910px;
     left: 564px;
@@ -1315,7 +1313,7 @@ footer {
     width: 333px;
     background-size: 94%;
     background-image: url(./images/card3.png);
-  } 
+  }
 
   .about-me {
     width: 100%;
