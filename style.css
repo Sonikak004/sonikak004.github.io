@@ -1211,7 +1211,7 @@ footer {
   .languages {
     padding-top: 6px;
     width: 353px;
-    margin-left: -19px
+    margin-left: -19px;
   }
 
   button {
@@ -1584,34 +1584,7 @@ footer {
     left: 336px;
     padding-left: 30px;
   }
-
-  .btn:hover {
-    animation: move 1.5s linear infinite;
-  }
-  @keyframes move {
-    0%, 7% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: rotatez(-10deg);
-    }
-    20% {
-      transform: rotatez(20deg);
-    }
-    25% {
-      transform: rotatez(-20deg);
-    }
-    30% {
-      transform: rotatez(3deg);
-    }
-    35% {
-      transform: rotatez(-3deg);
-    }
-    40%, 100% {
-      transform: rotatez(0);
-    }
-  }
-
+  
   .text-area {
     display: none;
   }
