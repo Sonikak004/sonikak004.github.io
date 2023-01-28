@@ -6,13 +6,17 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .wrapper {
+  width: 338px;
   display: flex;
   justify-content: center;
+}
+
+body {
+  width: 364px;
 }
 
 /* top heading for main page */
@@ -20,8 +24,8 @@ html {
 .heading {
   position: relative;
   align-items: center;
-  margin-left: -106px;
-  width: 375px;
+  margin-left: 40px;
+  width: 376px;
   height: 92px;
   display: flex;
   justify-content: space-between;
@@ -40,6 +44,10 @@ html {
 
 #desktop-nav-bar {
   display: none;
+}
+
+.top-nav-bar {
+  width: 100%;
 }
 
 #navigation-bar {
@@ -81,6 +89,10 @@ html {
   padding-top: 60px;
 }
 
+.main-page-text {
+  width: 364px;
+}
+
 .profession {
   width: 331px;
   font-family: "Roboto", sans-serif;
@@ -92,7 +104,7 @@ html {
 }
 
 .main-description {
-  width: 331px;
+  width: 355px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -112,6 +124,11 @@ html {
   margin-top: -5px;
   margin-left: -21px;
   text-decoration: none;
+  width: 219px;
+}
+
+.social-div {
+  width: 259px;
 }
 
 .social-icons {
@@ -321,6 +338,8 @@ button {
 /* professional art cards */
 
 .professional-art {
+  left: -21px;
+  position: relative;
   display: grid;
   grid-column: 1;
   justify-content: start;
@@ -335,6 +354,15 @@ button {
 }
 
 .professional-text {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.professional-text-4 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -785,6 +813,11 @@ button {
   justify-content: center;
 }
 
+.form-items-list {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-me-para {
   width: 321px;
   height: 216px;
@@ -846,8 +879,16 @@ input {
   line-height: 24px;
 }
 
+.text-area-desktop {
+  display: none;
+}
+
 .text-area::placeholder {
   color: #3c3a39;
+}
+
+.email::placeholder {
+  font-size: 15px;
 }
 
 .button4 {
@@ -916,9 +957,9 @@ footer {
 
 /* Desktop Version */
 
-@media only screen and /*(max-width: 1280px) and */ (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   html {
-    width: 98vw;
+    width: 100%;
   }
 
   .heading {
@@ -943,13 +984,6 @@ footer {
     top: -41px;
     left: 159px;
     position: relative;
-  }
-
-  .nav-icon:hover {
-    transform: translateY(-10px);
-    top: -49px;
-    width: 72px;
-    left: 153px;
   }
 
   .nav1 {
@@ -983,26 +1017,24 @@ footer {
   }
 
   .heading-text {
-    padding-left: 90px;
+    margin-left: 80px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
   }
-
-  .heading-text:hover {
-    transform: scale(1.2);
-  }
-
 
   #navigation-bar {
     display: none;
   }
 
   .main-page {
-    width: 1008px;
-    position: relative;
-    left: 1px;
-    height: 553px;
-    top: 64px;
+    width: 100%;
+    left: -1px;
+    top: 72px;
+  }
+
+  .main-page-text {
+    width: 500px;
+    margin-left: 70px;
   }
 
   .main-text {
@@ -1031,11 +1063,17 @@ footer {
     line-height: 32px;
   }
 
+  .social-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: -398px;
+  }
+
   .social-media {
     display: flex;
     padding-left: 62px;
     margin-top: -302px;
-    margin-left: -944px;
+    margin-left: -866px;
     flex-direction: column;
   }
 
@@ -1072,9 +1110,9 @@ footer {
   #background-main {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 449px;
-    background-position-x: 559px;
-    background-position-y: -54px;
+    background-size: 500px;
+    background-position-x: right;
+    background-position-y: -35px;
   }
 
   #desktop-nav-bar {
@@ -1091,74 +1129,264 @@ footer {
   .desktop-items {
     display: flex;
     margin-top: 143px;
+    margin-left: 105px;
     position: relative;
     left: 100px;
     top: -40px;
   }
 
+  .second-page {
+    width: 80%;
+    height: 1px;
+    margin-left: -143px;
+  }
+
+  .second-page-div {
+    margin-left: 102px;
+    width: 100%;
+    height: 50px;
+  }
+
   .second-heading {
-    margin-top: 96px;
+    width: 100%;
+    margin-top: 181px;
     position: relative;
-    left: 59px;
+    margin-left: 175px;
     top: -70px;
+    display: flex;
     color: #091e42;
   }
 
-  .second-heading:hover {
-    transform: translatex(-20px);
-    color: #ff6b00;
-  }
-
   .page2-line {
-    left: 391px;
-    top: -127px;
-    width: 513px;
+    top: -128px;
+    left: 358px;
+    width: 68%;
     position: relative;
   }
 
   .background2 {
-    width: 477px;
-    height: 447px;
+    width: 491px;
+    height: 499px;
   }
 
   .second-background {
     position: relative;
-    left: 62px;
+    left: 313px;
+    width: 491px;
     top: -93px;
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
   }
 
   .page2-para {
     position: relative;
-    left: 561px;
-    top: -570px;
+    margin-left: 835px;
+    top: -621px;
+    display: flex;
+    width: 43%;
+    flex-direction: column;
   }
 
   .recent-work-heading {
     line-height: 52px;
+    width: 100%;
   }
 
   .recent-work-para {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    width: 367px;
+    width: 100%;
     height: 140px;
   }
 
+  .recent-works-div {
+    width: 100%;
+  }
+
+  .recent-div {
+    margin-left: -73px;
+  }
+
   .languages {
-    padding-top: 42px;
+    padding-top: 6px;
+    width: 353px;
+    margin-left: -19px
   }
 
   button {
-    margin-top: 40px;
+    margin-top: 15px;
   }
 
-  .btn:hover {
+  .pro-text {
+    display: none;
+  }
+
+  .car1 {
+    display: none;
+  }
+
+  #pro-images-1 {
+    top: -429px;
+    margin: auto;
+    left: 328px;
+    background-image: url(./images/Img\ Placeholder.png);
+    background-size: 91%;
+    width: 410px;
+  }
+
+  .button2 {
+    margin-top: 254px;
+    margin-left: 5px;
+    width: 325px;
+    height: 52px;
+  }
+
+  .buttontwo {
+    display: none;
+  }
+
+  .button-text2 {
+    left: 3px;
+    position: relative;
+  }
+
+  .professional-art-text {
+    margin-top: 20px;
+    padding-left: 14px;
+    padding-top: 77px;
+  }
+
+  #pro-images-2 {
+    top: -916px;
+    left: 687px;
+    height: 345px;
+    background-size: 85%;
+    width: 371px;
+    background-image: url(./images/page2card2.png);
+  }
+
+  .pro-para-text {
+    width: 243px;
+    margin-bottom: 50px;
+    height: 79px;
+    font-size: 15px;
+  }
+
+  #pro-images-3 {
+    top: -1358px;
+    left: 1026px;
+    height: 402px;
+    width: 316px;
+    background-size: 100%;
+    background-image: url(./images/card3.png);
+  }
+
+  .card1 {
+    margin-left: -43px;
+  }
+
+  .card2 {
+    margin-left: 23px;
+  }
+
+  .card3 {
+    margin-left: 127px;
+  }
+
+  #pro-images-4 {
+    top: -1450px;
+    left: 345px;
+    height: 345px;
+    background-size: 94%;
+    width: 338px;
+    background-image: url(./images/probackground.png);
+  }
+
+  .pro-desktop {
+    display: flex;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 27px;
+  }
+
+  .professional-text {
+    display: none;
+  }
+
+  .professional-text-4 {
+    padding-top: 9px;
+  }
+
+  #pro-images-5 {
+    top: -1892px;
+    left: 689px;
+    height: 363px;
+    background-size: 82%;
+    width: 388px;
+    background-image: url(./images/page2card2.png);
+  }
+
+  .pro-div {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-left: 337px;
+    height: 1px;
+  }
+
+  #pro-images-6 {
+    top: -2352px;
+    left: 1028px;
+    height: 423px;
+    width: 316px;
+    background-size: 100%;
+    background-image: url(./images/card3.png);
+  }
+
+  .about-me {
+    width: 100%;
+    height: 1195px;
+    top: 385%;
+    background-image: url(./images/about-me-background.png);
+    background-size: 46%;
+    background-position-x: right;
+    background-position-y: 85px;
+  }
+
+  .about-me-div {
+    width: 566px;
+    height: 426px;
+    margin-top: -26px;
+    margin-left: 73px;
+  }
+
+  .about-me-text {
+    padding-top: 80px;
+    font-size: 72px;
+    padding-left: 92px;
+  }
+
+  .about-me-para {
+    padding-left: 90px;
+    width: 420px;
+    font-size: 14px;
+    height: 148px;
+    line-height: 32px;
+  }
+
+  .button3 {
+    margin-left: 91px;
+    margin-top: 0;
+  }
+
+  .button3:hover {
     animation: move 1.5s linear infinite;
   }
-
   @keyframes move {
     0%, 7% {
       transform: rotateZ(0);
@@ -1183,174 +1411,10 @@ footer {
     }
   }
 
-  .pro-text {
-    display: none;
-  }
-
-  .car1 {
-    display: none;
-  }
-
-  #pro-images-1 {
-    top: -465px;
-    left: 86px;
-    background-image: url(./images/Img\ Placeholder.png);
-    height: 345px;
-    width: 345px;
-    background-size: 84%;
-  }
-
-  #pro-images-1:hover {
-    animation: left-right 1s linear infinite;
-  }
-
-  @keyframes left-right {
-    0% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: rotatez(-15deg);
-    }
-
-    100% {
-      transform: rotateZ(-15deg);
-    }
-  }
-
-  .button2 {
-    margin-top: 179px;
-    margin-left: 1px;
-    width: 254px;
-    height: 43px;
-  }
-
-  .buttontwo {
-    display: none;
-  }
-
-  .button-text2 {
-    left: 3px;
-    position: relative;
-  }
-
-  .professional-art-text {
-    margin-top: 20px;
-    padding-left: 14px;
-    padding-top: 77px;
-  }
-
-  #pro-images-2 {
-    top: -906px;
-    left: 367px;
-    height: 345px;
-    background-size: 64%;
-    width: 380px;
-    background-image: url(./images/page2card2.png);
-  }
-
-  .pro-para-text {
-    width: 243px;
-    margin-bottom: 50px;
-    height: 79px;
-    font-size: 15px;
-  }
-
-  #pro-images-3 {
-    top: -1348px;
-    left: 630px;
-    height: 303px;
-    width: 357px;
-    background-size: 68%;
-    background-image: url(./images/card3.png);
-  }
-
-  .card1 {
-    margin-left: -43px;
-  }
-
-  .card2 {
-    margin-left: 23px;
-  }
-
-  .card3 {
-    margin-left: 127px;
-  }
-
-  #pro-images-4 {
-    top: -1432px;
-    left: 101px;
-    height: 345px;
-    background-size: 68%;
-    width: 362px;
-    background-image: url(./images/probackground.png);
-  }
-
-  .pro-desktop {
-    display: flex;
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    margin-top: -48px;
-  }
-
-  .professional-text {
-    display: none;
-  }
-
-  #pro-images-5 {
-    top: -1872px;
-    left: 366px;
-    height: 346px;
-    background-size: 70%;
-    width: 349px;
-    background-image: url(./images/page2card2.png);
-  }
-
-  #pro-images-6 {
-    top: -2314px;
-    left: 630px;
-    height: 345px;
-    width: 357px;
-    background-size: 68%;
-    background-image: url(./images/card3.png);
-  }
-
-  .about-me {
-    width: 100%;
-    height: 1195px;
-    top: 359%;
-    background-image: url(./images/about-me-background.png);
-    background-size: 46%;
-    background-position-x: 544px;
-    background-position-y: 157px;
-  }
-
-  .about-me-text {
-    padding-top: 80px;
-    font-size: 72px;
-    padding-left: 92px;
-  }
-
-  .about-me-para {
-    padding-left: 90px;
-    width: 420px;
-    font-size: 14px;
-    height: 148px;
-    line-height: 32px;
-  }
-
-  .button3 {
-    margin-left: 91px;
-    margin-top: 0;
-  }
-
   .line {
-    width: 826px;
+    width: 640px;
     position: relative;
-    top: 148px;
+    top: 135px;
   }
 
   .about-me-section {
@@ -1358,7 +1422,6 @@ footer {
     justify-content: center;
     position: relative;
     top: 205px;
-    left: 2px;
   }
 
   .square-img {
@@ -1378,19 +1441,19 @@ footer {
 
   .about-me-skills1 {
     position: relative;
-    left: -245px;
+    left: -204px;
     top: 13px;
   }
 
   .about-me-skills2 {
     position: relative;
-    left: -48px;
+    left: 22px;
     top: 13px;
   }
 
   .about-me-skills3 {
     position: relative;
-    left: 191px;
+    left: 277px;
     top: 13px;
   }
 
@@ -1460,18 +1523,18 @@ footer {
   }
 
   .contact-me {
-    display: block;
-    padding-top: 102px;
-    padding-left: 70px;
+    padding-left: 88px;
+    justify-content: flex-start;
   }
 
   .contact-me-para {
     text-align: left;
     height: 396px;
     position: relative;
-    top: 47px;
+    top: 20px;
     line-height: 54px;
-    width: 321px;
+    width: 331px;
+    color: #262626;
   }
 
   .Name {
@@ -1482,6 +1545,10 @@ footer {
     top: -347px;
     padding: 26px;
     margin-bottom: 5px;
+  }
+
+  .Name::placeholder {
+    font-size: 15px;
   }
 
   .last-name {
@@ -1497,6 +1564,10 @@ footer {
     display: flex;
   }
 
+  .lname::placeholder {
+    font-size: 15px;
+  }
+
   .email {
     color: #979493;
     width: 479px;
@@ -1509,15 +1580,63 @@ footer {
 
   .button4 {
     position: relative;
-    top: -224px;
-    left: 333px;
+    top: -274px;
+    left: 336px;
+    padding-left: 30px;
+  }
+
+  .btn:hover {
+    animation: move 1.5s linear infinite;
+  }
+  @keyframes move {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotatez(-10deg);
+    }
+    20% {
+      transform: rotatez(20deg);
+    }
+    25% {
+      transform: rotatez(-20deg);
+    }
+    30% {
+      transform: rotatez(3deg);
+    }
+    35% {
+      transform: rotatez(-3deg);
+    }
+    40%, 100% {
+      transform: rotatez(0);
+    }
   }
 
   .text-area {
+    display: none;
+  }
+
+  .text-area-desktop {
     position: relative;
-    top: -210px;
-    width: 512px;
+    top: -160px;
+    width: 526px;
     left: 410px;
+    display: inline;
+    color: #3c3a39;
+    background-color: #fbf8f7;
+    font-family: "roboto", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .text-area-desktop::placeholder {
+    color: #3c3a39;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: 10px;
   }
 
   .foot {
@@ -1527,13 +1646,14 @@ footer {
   .social-media-dark {
     position: relative;
     top: 67px;
-    padding-left: 335px;
+    padding-left: 350px;
   }
 
   .footer-bottom {
-    height: 17%;
-    width: 100%;
+    width: 96%;
     display: block;
+    margin-left: 2px;
+    margin-top: -296px;
   }
 
   .form-items-list {
@@ -1552,20 +1672,21 @@ footer {
     display: block;
     height: 0;
     width: 0;
+    margin-left: -86px;
   }
 
   .abt-head1 {
     position: relative;
-    left: -191px;
+    left: -119px;
   }
 
   .abt-head2 {
     position: relative;
-    left: 75px;
+    left: 165px;
   }
 
   .abt-head3 {
     position: relative;
-    left: 208px;
+    left: 320px;
   }
 }
