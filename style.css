@@ -874,8 +874,6 @@ input {
   font-size: 15px;
 }
 
-
-
 .button4 {
   display: flex;
   flex-direction: row;
@@ -1017,7 +1015,7 @@ footer {
     top: 72px;
   }
 
-  .main-page-text{
+  .main-page-text {
     width: 500px;
     margin-left: 23px;
   }
@@ -1095,7 +1093,7 @@ footer {
   #background-main {
     background-image: url(./images/Illustration-header@2x.png);
     background-repeat: no-repeat;
-    background-size: 500px;    
+    background-size: 500px;   
     background-position-x: 716px;
     background-position-y: -35px;
   }
@@ -1514,7 +1512,6 @@ footer {
     font-size: 15px;
   }
 
-
   .email {
     color: #979493;
     width: 479px;
@@ -1558,7 +1555,6 @@ footer {
     left: 10px;
     top: 10px;
   }
-
 
   .foot {
     display: none;
