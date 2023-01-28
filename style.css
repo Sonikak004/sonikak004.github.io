@@ -1235,11 +1235,65 @@ footer {
     width: 410px;
   }
 
+  #pro-images-1:hover {
+    animation: left-right 1s linear infinite;
+  }
+
+  @keyframes left-right {
+    0% {
+      transform: rotateZ(0);
+    }
+
+    15% {
+      transform: rotatez(-15deg);
+    }
+
+    100% {
+      transform: rotateZ(-15deg);
+    }
+  }
+
   .button2 {
     margin-top: 254px;
     margin-left: 5px;
     width: 325px;
     height: 52px;
+  }
+
+  .btn:hover {
+    animation: move 1.5s linear infinite;
+  }
+
+  @keyframes move {
+    0%, 
+    7% {
+      transform: rotateZ(0);
+    }
+
+    15% {
+      transform: rotatez(-10deg);
+    }
+
+    20% {
+      transform: rotatez(20deg);
+    }
+
+    25% {
+      transform: rotatez(-20deg);
+    }
+
+    30% {
+      transform: rotatez(3deg);
+    }
+
+    35% {
+      transform: rotatez(-3deg);
+    }
+
+    40%,
+    100% {
+      transform: rotatez(0);
+    }
   }
 
   .buttontwo {
@@ -1673,14 +1727,14 @@ footer {
   }
 
   .second-heading:hover {
-    transform: translatex(-20px);
-    color: #ff6b00;
+    transform: translateX(-20px);
+    color: hsl(25, 100%, 50%);
   }
 
   .heading-text:hover {
     transform: scale(1.2);
   }
-  
+
   .nav-icon:hover {
     transform: translateY(-10px);
     top: -49px;
