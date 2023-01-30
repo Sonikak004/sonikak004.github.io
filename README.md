@@ -33,8 +33,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-you can see my profile through this link:
-https://github.com/Sonikak004/my-portfolio/tree/home-page
+you can see my profile through this link: https://sonikak004.github.io/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
